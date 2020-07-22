@@ -1,0 +1,173 @@
+body{
+    background-color: lightcyan;
+}
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 120px;
+    box-shadow: 2px 2px 2px;
+    color: lightseagreen;
+}
+
+#navbar>a {
+    font-family: helvetica;
+    font-size: 30px;
+    text-decoration: none;
+    color: lightseagreen;
+}
+
+#welcome-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 100%;
+    height: 100vh;
+    background-color: lavenderblush;
+}
+
+button{
+    color: white;
+    background-color: lightseagreen;
+    font-size: 40px;
+    padding: 20px;
+    border-color: white;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+button:hover{
+    background-color: #6BBFBF
+}
+
+h1{
+    font-family: Helvetica;
+    font-size: 150px;
+    color: lightseagreen;
+    
+}
+
+#aboutme > img{
+    width: 40%;
+    margin: 20px;
+}
+
+#aboutme{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: helvetica;
+    font-size: 30px;
+    height: 100vh;
+    color: lightseagreen;
+    align-items: center;
+}
+
+h2 {
+    margin-block-start: 20px;
+    margin-block-end: 20px;
+}
+
+#profile-link{
+    color: lightseagreen;
+    font-family: helvetica;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+#projects{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75vh;
+}
+
+.resize{
+    height: 400px;
+}
+
+#talkbutton{
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#talkbutton > h2{
+    color: lightseagreen;
+    font-family: helvetica;
+    font-size: 30px;
+}
+
+#getintouch{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: lavenderblush;
+    text-align-last: center;
+    margin: 80px;
+}
+
+#getintouch > h2{
+    color: lightseagreen;
+    font-family: helvetica;
+    font-size: 30px;
+    margin: 40px;
+    text-align: center;
+}
+
+#getintouch > form > label{
+    font-family: helvetica;
+    font-size: large;
+    color: lightseagreen;
+    text-align: center;
+}
+
+#getintouch > form > input{
+    font-family: helvetica;
+    font-size: large;
+    color: lightseagreen;
+    text-align: center;
+}
+
+#getintouch > form > select{
+    font-family: helvetica;
+    font-size: large;
+    color: lightseagreen;
+    text-align-last: center;
+}
+
+#getintouch > form > textarea{
+    font-family: helvetica;
+    font-size: large;
+    text-align-last: center;
+}
+
+#getintouch > form{
+ display: flex;
+ justify-content: space-around;
+ flex-direction: column;
+ margin-top: 20px;
+ margin-left: 100px;
+ margin-right: 100px;
+ margin-bottom: 40px;
+}
+
+ @media screen {
+    body {
+      width: 100%;
+    }
+  }
+  
+  @media print {
+    body {
+      width: 100%;
+    }
+  }
+}
