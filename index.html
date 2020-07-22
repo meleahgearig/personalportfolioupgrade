@@ -5,3 +5,86 @@
     <title>Personal Portfolio Upgrade</title>
     <link rel="stylesheet" href="styles/styles.css">
 </head>
+
+<body>
+
+    <section>
+    <nav id="navbar">
+        <a href="#aboutme">About Me</a>
+        <a href="#projects">My Projects</a>
+        <a href="#getintouch">Get in Touch</a>
+    </nav>
+    </section>
+
+    <section id="welcome-section">
+        <h1>Hey There!</h1>
+        <a href="#aboutme">
+            <button>Meet Me!</button>
+        </a>
+    </section>
+
+    <section id="aboutme">
+        <h2>My name is Meleah!</h2>
+        <h3>I'm a Web Designer</h3>
+        <img src="images/me.JPG" alt="Photo of Me">
+        <a href="#projects">
+            <button>See my Work!</button>
+        </a>
+        <a id ="profile-link" href="https://github.com/meleahgearig" target="_blank">  
+            My Github Link
+        </a>
+    </section>
+
+    <section id="projects">
+        
+        <a href="https://github.com/meleahgearig" class="project-tile" target="_blank">  
+            <img class="resize" src="images/github.png" alt="Github Logomark">
+        </a>
+
+        <a href="https://codepen.io/meleah10923344/pen/mdVdgGO" class="project-tile" target="_blank">  
+            <img class="resize" src="images/project1.png" alt="Project 1">
+        </a>
+
+        <a href=https://meleahshayphoto.com/ class="project-tile" target="_blank">  
+            <img class="resize" src="images/meleahshayphoto.png" alt="Project 1">
+        </a>
+        
+    </section>
+    
+    <section id="talkbutton">
+        <h2>Click each Project to see more!</h2>
+        <a href="#getintouch">
+            <button>Let's Talk!</button>
+        </a>
+    </section>
+
+  
+    <section id="getintouch">
+
+        <h2>Get in Touch with Me!</h2>
+
+        <form action="/action_page.ctp" method="GET">
+            <label for="fname">First Name</label><br>
+            <input type="text" id="fname" name="firstname" placeholder="Your name.."> <br>
+            <label for="lname">Last Name</label><br>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
+            <label for="state">State</label><br>
+            <select id="state" name="state">
+              <option value="idaho">Idaho</option>
+              <option value="utah">Utah</option>
+              <option value="arizona">Arizona</option>
+            </select><br>
+            <label for="subject">Subject</label><br>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea><br>
+            <input class="sendbutton" type="submit" value="Send!"><br>
+          </form>
+
+          <a href="#welcome-section">
+            <button>Back to Top!</button>
+        </a>
+
+    </section>
+
+</body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
