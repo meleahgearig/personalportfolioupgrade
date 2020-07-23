@@ -6,29 +6,32 @@
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 
+<script type="module" src="main.js"></script>
+<script type="module" src="films.js"></script>
+
 <body>
 
     <section>
     <nav id="navbar">
         <a href="#aboutme">About Me</a>
-        <a href="#projects">My Projects</a>
-        <a href="#getintouch">Get in Touch</a>
+        <a href="#projects">Choose Your Film</a>
+        <a href="#getintouch">Let's Talk</a>
     </nav>
     </section>
 
     <section id="welcome-section">
-        <h1>Hey There!</h1>
+        <h1>So You Wanna Talk Star Wars?</h1>
         <a href="#aboutme">
-            <button>Meet Me!</button>
+            <button>Click Me!</button>
         </a>
     </section>
 
     <section id="aboutme">
-        <h2>My name is Meleah!</h2>
-        <h3>I'm a Web Designer</h3>
-        <img src="images/me.JPG" alt="Photo of Me">
+        <h2>My name is Meleah,</h2>
+        <h3>I like Star Wars too!</h3>
+        <img src="images/starwars.JPEG" alt="Photo of Me">
         <a href="#projects">
-            <button>See my Work!</button>
+            <button>Tell Me Your Fav!</button>
         </a>
         <a id ="profile-link" href="https://github.com/meleahgearig" target="_blank">  
             My Github Link
@@ -37,18 +40,20 @@
 
     <section id="projects">
         
-        <a href="https://github.com/meleahgearig" class="project-tile" target="_blank">  
-            <img class="resize" src="images/github.png" alt="Github Logomark">
-        </a>
+        <ul id="filmsul"></ul>  
 
-        <a href="https://codepen.io/meleah10923344/pen/mdVdgGO" class="project-tile" target="_blank">  
-            <img class="resize" src="images/project1.png" alt="Project 1">
-        </a>
+    </section>
+    
+    <section id="pickmovie">
 
-        <a href=https://meleahshayphoto.com/ class="project-tile" target="_blank">  
-            <img class="resize" src="images/meleahshayphoto.png" alt="Project 1">
-        </a>
-        
+        <button class="moviebutton">This One!</button>
+        <button class="moviebutton">This One!</button>
+        <button class="moviebutton">This One!</button>
+        <button class="moviebutton">This One!</button>
+        <button class="moviebutton">This One!</button>
+        <button class="moviebutton">This One!</button>
+        <button class="moviebutton">This One!</button>
+
     </section>
     
     <section id="talkbutton">
@@ -61,7 +66,7 @@
   
     <section id="getintouch">
 
-        <h2>Get in Touch with Me!</h2>
+        <h2>Let's Talk More Star Wars</h2>
 
         <form action="/action_page.ctp" method="GET">
             <label for="fname">First Name</label><br>
