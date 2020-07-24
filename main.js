@@ -12,7 +12,8 @@ films.map(film => {
     span= createNode('span');
 
 
-    span.innerHTML = `${film.title} ${film.director}`
+    span.innerHTML = `${film.title},
+     ${film.director}`
 
     append(li, span);
     append(filmsul, li);

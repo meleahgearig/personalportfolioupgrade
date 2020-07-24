@@ -1,24 +1,24 @@
 body{
-    background-color: lightcyan;
+    background-color: #A65A49;
 }
 #navbar{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: white;
+    background-color: #011640;
     position: fixed;
     top: 0px;
     width: 100%;
     height: 120px;
     box-shadow: 2px 2px 2px;
-    color: lightseagreen;
+    color: #D99036;
 }
 
 #navbar>a {
     font-family: helvetica;
     font-size: 30px;
     text-decoration: none;
-    color: lightseagreen;
+    color: white;
 }
 
 #welcome-section{
@@ -28,12 +28,12 @@ body{
     align-items: center;
     min-width: 100%;
     height: 100vh;
-    background-color: lavenderblush;
+    background-color: #D9B1AD;
 }
 
 button{
     color: white;
-    background-color: lightseagreen;
+    background-color: #011640;
     font-size: 40px;
     padding: 20px;
     border-color: white;
@@ -42,13 +42,13 @@ button{
 }
 
 button:hover{
-    background-color: #6BBFBF
+    background-color: #D99036
 }
 
 .moviebutton{
     font-size: 20px;
     margin: 10px;
-    background-color: paleturquoise;
+    background-color: #D99036;
 }
 
 .moviebutton:active{
@@ -63,7 +63,7 @@ button:hover{
 h1{
     font-family: Helvetica;
     font-size: 75px;
-    color: lightseagreen;
+    color: #011640;
     
 }
 
@@ -79,7 +79,7 @@ h1{
     font-family: helvetica;
     font-size: 30px;
     height: 100vh;
-    color: lightseagreen;
+    color: white;
     align-items: center;
 }
 
@@ -89,7 +89,7 @@ h2 {
 }
 
 #profile-link{
-    color: lightseagreen;
+    color: white;
     font-family: helvetica;
     font-size: 30px;
     text-decoration: none;
@@ -99,7 +99,7 @@ h2 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 50vh;
+    height: 45vh;
 }
 
 #filmsul{
@@ -107,9 +107,9 @@ h2 {
     justify-content: space-between;
     list-style-type: none;
     text-align: center;
-    color: lightseagreen;
+    color: white;
     font-family: helvetica;
-    font-size: 20px;
+    font-size: 28px;
 }
 
 .resize{
@@ -125,7 +125,7 @@ h2 {
 }
 
 #talkbutton > h2{
-    color: lightseagreen;
+    color: white;
     font-family: helvetica;
     font-size: 30px;
 }
@@ -134,13 +134,13 @@ h2 {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-color: lavenderblush;
+    background-color: #D9B1AD;
     text-align-last: center;
     margin: 80px;
 }
 
 #getintouch > h2{
-    color: lightseagreen;
+    color: white;
     font-family: helvetica;
     font-size: 30px;
     margin: 40px;
@@ -150,21 +150,21 @@ h2 {
 #getintouch > form > label{
     font-family: helvetica;
     font-size: large;
-    color: lightseagreen;
+    color: white;
     text-align: center;
 }
 
 #getintouch > form > input{
     font-family: helvetica;
     font-size: large;
-    color: lightseagreen;
+    color: lightslategray;
     text-align: center;
 }
 
 #getintouch > form > select{
     font-family: helvetica;
     font-size: large;
-    color: lightseagreen;
+    color: lightslategray;
     text-align-last: center;
 }
 
